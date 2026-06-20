@@ -259,6 +259,27 @@ function main() {
     });
 
     renderPlaylist();
+
+    // For sliding overlay functionality on mobile devices:
+    const playerCard = document.querySelector(".player-card");
+    const closeBtn = document.querySelector(".close-player");
+
+    if (window.innerWidth > 768) {
+        closeBtn.style.opacity = "0";
+    }
+    else {
+        closeBtn.style.opacity = "1";
+    }
+
+    songsList.addEventListener("click", (e) => {
+        if (window.innerWidth <= 768) {
+            playerCard.classList.add("active");
+        }
+    });
+
+    closeBtn.addEventListener("click", (e) => {
+        playerCard.classList.remove("active");
+    });
 }
 
 main();
