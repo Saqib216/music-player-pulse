@@ -374,7 +374,7 @@ body::before {
 
     .player-card {
         position: fixed;
-        bottom: -100%;
+        bottom: -140%;
         left: 0;
         width: 100vw;
         height: 100vh;
