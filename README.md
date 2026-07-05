@@ -1,12 +1,12 @@
 # 🎵 Music Player App — PULSE
 
-A sleek, glassmorphism-styled music player built with vanilla HTML, CSS, and JavaScript. Features per-song cover art, animated seek bar, volume control, and a smooth mobile overlay experience. Built as part of my Frontend Development Internship at **CodeAlpha**.
+A sleek, glassmorphism-styled music player built with vanilla HTML, CSS, and JavaScript. Features per-song cover art, animated seek bar, volume control, and a smooth mobile overlay experience. 
 
 ---
 
 ## 🔗 Live Demo
 
-> _https://code-alpha-music-player-lake.vercel.app_
+> _https://music-player-pulse.vercel.app_
 
 ---
 
@@ -28,7 +28,7 @@ A sleek, glassmorphism-styled music player built with vanilla HTML, CSS, and Jav
 ## 🗂️ Project Structure
 
 ```
-CodeAlpha_MusicPlayer/
+MusicPlayer_PULSE/
 ├── index.html          # App markup — player card + playlist panel
 ├── css/
 │   └── style.css       # Glassmorphism design, animations, responsive
@@ -251,7 +251,7 @@ closeBtn.addEventListener("click", () => {
 No build tools or dependencies required.
 
 ```bash
-git clone https://github.com/Saqib216/CodeAlpha_MusicPlayer.git
+git clone https://github.com/Saqib216/music-player-pulse.git
 cd MusicPlayer
 # Open index.html in your browser or use VS Code Live Server
 ```
@@ -260,7 +260,7 @@ cd MusicPlayer
 
 ## 👨‍💻 Author
 
-**Muhammad Saqib Hussnain** | Frontend Development Intern @ CodeAlpha
+**Muhammad Saqib Hussnain**
 
 - [GitHub](https://github.com/Saqib216)
 - [LinkedIn](https://www.linkedin.com/in/saqib-hussnain)
