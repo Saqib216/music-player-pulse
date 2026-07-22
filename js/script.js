@@ -1,45 +1,39 @@
 const songs = [
     {
-        title: "Sitaare",
-        artist: "Arijit Singh",
-        src: "songs/Sitaare.mp3",
+        title: "Dark",
+        artist: "Onetent",
+        src: "songs/Dark.mp3",
         cover: "covers/cover1.jpg"
     },
 
     {
-        title: "Mann Mera",
-        artist: "Gajendra Verma",
-        src: "songs/Mann Mera.mp3",
+        title: "Black Hawk",
+        artist: "White_Records",
+        src: "songs/Black Hawk.mp3",
         cover: "covers/cover2.jpg"
     },
 
     {
-        title: "Khat",
-        artist: "Navjot Ahuja",
-        src: "songs/Khat.mp3",
+        title: "Falling Star",
+        artist: "alanajordan",
+        src: "songs/Falling Star.mp3",
         cover: "covers/cover3.jpg"
     },
 
     {
-        title: "Bairan",
-        artist: "Banjaare",
-        src: "songs/Bairan.mp3",
+        title: "Sentimental Memories",
+        artist: "leberch",
+        src: "songs/Sentimental Memories.mp3",
         cover: "covers/cover4.jpg"
     },
 
     {
-        title: "Dil Lagana Mana Tha",
-        artist: "Krish Mondal, Kishore Mondal",
-        src: "songs/Dil lagana mana tha.mp3",
+        title: "Aspire Motivation",
+        artist: "AudioCoffee",
+        src: "songs/Aspire Motivation.mp3",
         cover: "covers/cover5.jpg"
     },
 
-    {
-        title: "Khasara",
-        artist: "Abdul Hannan, Samar Jafri",
-        src: "songs/Khasara.mp3",
-        cover: "covers/cover6.jpg"
-    }
 ];
 
 const currentSong = new Audio();

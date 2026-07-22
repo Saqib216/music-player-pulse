@@ -35,12 +35,11 @@ MusicPlayer_PULSE/
 ├── js/
 │   └── script.js       # All music player logic
 ├── songs/              # MP3 audio files
-│   ├── Sitaare.mp3
-│   ├── Mann Mera.mp3
-│   ├── Khat.mp3
-│   ├── Bairan.mp3
-│   ├── Dil lagana mana tha.mp3
-│   └── Khasara.mp3
+│   ├── Dark.mp3
+│   ├── Black Hawk.mp3
+│   ├── Falling Star.mp3
+│   ├── Sentimental Memories.mp3
+│   └── Aspire Motivation.mp3
 └── covers/             # Per-song cover images
     ├── cover1.jpg
     ├── cover2.jpg
@@ -226,12 +225,11 @@ closeBtn.addEventListener("click", () => {
 
 | # | Title | Artist |
 |---|-------|--------|
-| 1 | Sitaare | Arijit Singh |
-| 2 | Mann Mera | Gajendra Verma |
-| 3 | Khat | Navjot Ahuja |
-| 4 | Bairan | Banjaare |
-| 5 | Dil Lagana Mana Tha | Krish Mondal, Kishore Mondal |
-| 6 | Khasara | Abdul Hannan, Samar Jafri |
+| 1 | Dark | Onetent |
+| 2 | Black Hawk | White_Records |
+| 3 | Falling Star | alanajordan |
+| 4 | Sentimental Memories | leberch |
+| 5 | Aspire Motivation | AudioCoffee |
 
 ---
 
